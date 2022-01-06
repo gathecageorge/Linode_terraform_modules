@@ -5,7 +5,7 @@ variable "token" {
 }
 
 # root password to be set on linodes
-variable "instance_root_password" {
+variable "instance_ubuntu_password" {
   description = "root password to be set on linodes"
   type        = string
 }
